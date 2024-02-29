@@ -96,7 +96,7 @@ CPT format:
 
 
 ### Training
-We use the finetuning scripts are named as [`run_clm_llms.py`](https://github.com/wxjiao/ParroT/blob/master/transformers/examples/pytorch/language-modeling/run_clm_llms.py).
+We use the finetuning scripts are named as [`run_clm_llms.py`](https://github.com/pangjh3/LLM4MT/blob/main/transformers/examples/pytorch/language-modeling/run_clm_llms.py).
 
 
 LLaMA2-7b:
