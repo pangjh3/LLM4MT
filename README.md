@@ -14,7 +14,7 @@
 The evolution of Neural Machine Translation (NMT) has been significantly influenced by six core challenges [(Koehn & Knowles, NGT 2017)](https://aclanthology.org/W17-3204/), which have acted as benchmarks for progress in this field. This study revisits these challenges, offering insights into their ongoing relevance in the context of advanced Large Language Models (LLMs): *domain mismatch*, *amount of parallel data*, *rare word prediction*, *translation of long sentences*, *attention model as word alignment*, and *sub-optimal beam search*. Our empirical findings show that LLMs effectively reduce reliance on parallel data for major languages during pretraining and significantly improve translation of long sentences containing approximately 80 words, even translating documents up to 512 words. Despite these improvements, challenges in domain mismatch and rare word prediction persist. While word alignment and beam search challenges, specific to NMT, may not apply to LLMs, we identify three new challenges for LLM translation tasks: inference efficiency, translation of low-resource languages during pretraining, and human-aligned evaluation.
 
 ## Released Models
-- LLM-SFT: [de2en-10k](https://huggingface.co/pangjh3/LLM4MT-de2en-10k).
+- LLM-SFT: [de2en-10k](https://huggingface.co/pangjh3/LLM4MT-de2en-10k), [zh2en-10k](https://huggingface.co/pangjh3/LLM4MT-zh2en-10k)
 
 ## Configurations
 
