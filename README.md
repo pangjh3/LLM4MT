@@ -31,7 +31,7 @@ The evolution of Neural Machine Translation (NMT) has been significantly influen
 
 ### Environment
 
-The codes follows the codebase of [ParroT](https://github.com/wxjiao/ParroT), based on open-sourced LLMs (e.g., LLaMA2) with HuggingFace's transformers library.
+The implementation follows the codebase of [ParroT](https://github.com/wxjiao/ParroT), based on open-sourced LLMs (e.g., LLaMA2) with HuggingFace's transformers library.
 
 Framework Versions:
 - Python 3.8.12
