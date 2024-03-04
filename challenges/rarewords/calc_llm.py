@@ -3,11 +3,11 @@ from sacremoses import MosesTruecaser, MosesTokenizer
 import numpy as np
 mtok = MosesTokenizer(lang='en')
 
-srcfile="/apdcephfs/share_733425/vinnylywang/jianhuipang/datasets/wmt23/wmt23-deen/forfairseq/tmp_shuf/test.de"
-tgtfile="/apdcephfs/share_733425/vinnylywang/jianhuipang/datasets/wmt23/wmt23-deen/forfairseq/tmp_shuf/test.en"
+srcfile="jianhuipang/datasets/wmt23/wmt23-deen/forfairseq/tmp_shuf/test.de"
+tgtfile="jianhuipang/datasets/wmt23/wmt23-deen/forfairseq/tmp_shuf/test.en"
 testdatafile="./test.data2.out"
 alignfile="./wmt23test.align2.out"
-refile="/apdcephfs/share_733425/vinnylywang/jianhuipang/fairseq/wmt23models2/results/de2en.10000000.hyp.out"
+refile="jianhuipang/fairseq/wmt23models2/results/de2en.10000000.hyp.out"
 
 srclines=open(srcfile, 'r').readlines()
 tgtlines=open(tgtfile, 'r').readlines()
@@ -31,8 +31,8 @@ refdatalines = datalines[:549]
 llmsdatalines = datalines[549:549+549]
 nmtdatalines = datalines[549+549:]
 
-# refile="/apdcephfs/share_733425/vinnylywang/jianhuipang/LLMs4MT/test/WMT23/newptmodel/test.de2en.model.50000.out.hyp"
-# refile="/apdcephfs/share_733425/vinnylywang/jianhuipang/fairseq/wmt23models2/results/de2en.10000000.hyp.out"
+# refile="jianhuipang/LLMs4MT/test/WMT23/newptmodel/test.de2en.model.50000.out.hyp"
+# refile="jianhuipang/fairseq/wmt23models2/results/de2en.10000000.hyp.out"
 reflines = ["" for i in range(len(tgtlines))]
 outlines = open(refile, 'r').readlines()
 i=0

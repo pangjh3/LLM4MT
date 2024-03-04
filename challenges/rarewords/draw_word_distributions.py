@@ -1,8 +1,8 @@
 from sacrebleu.tokenizers.tokenizer_13a import Tokenizer13a
 t13a = Tokenizer13a()
 
-file="/apdcephfs/share_733425/vinnylywang/jianhuipang/LLMs4MT/test/WMT23/test.de2en.de"
-file="/apdcephfs/share_733425/vinnylywang/jianhuipang/datasets/wmt23/wmt23-deen/forfairseq/tmp_shuf/test.de"
+file="jianhuipang/LLMs4MT/test/WMT23/test.de2en.de"
+file="jianhuipang/datasets/wmt23/wmt23-deen/forfairseq/tmp_shuf/test.de"
 
 lines = open(file, 'r').readlines()
 
